@@ -1,0 +1,104 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 800px;
+	height: 420px;
+	background: green;
+	position: relative;
+}
+
+.red{
+	height: 180px;
+	width: 180px;
+	background: red;
+	top: 135px;
+	right: 325px;
+	position: absolute;
+	border-radius: 100%;
+}
+
+.red img{
+	height: 180px;
+	width: 180px;
+	background: red;
+	top: 135px;
+	right: 325px;
+	border-radius: 100%;
+}
+.fb{
+	width:250px;
+	height: 60px;
+	top: 150px;
+	right: -150px;
+	position: fixed;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.fb:hover{
+	width:250px;
+	height: 60px;
+	top: 150px;
+	right: 1px;
+	position: fixed;
+}
+
+.yt{
+	width:250px;
+	height: 60px;
+	top: 230px;
+	right: -150px;
+	position: fixed;
+	cursor: pointer;
+	transition: 1s;
+
+}
+
+.yt:hover{
+	width:250px;
+	height: 60px;
+	top: 230px;
+	right: 1px;
+	position: fixed;
+
+}
+
+.ld{
+	width:250px;
+	height: 60px;
+	top: 330px;
+	right: -150px;
+	position: fixed;
+	cursor: pointer;
+	transition: 1s;
+
+}
+
+.ld:hover{
+	width:250px;
+	height: 60px;
+	top: 330px;
+	right: 1px;
+	position: fixed;
+}
+
+.ig{
+	width:250px;
+	height: 60px;
+	top: 430px;
+	right: -150px;
+	position: fixed;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.ig:hover{
+	width:250px;
+	height: 60px;
+	top: 430px;
+	right: 1px;
+	position: fixed;
+}
